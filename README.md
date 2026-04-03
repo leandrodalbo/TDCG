@@ -116,7 +116,7 @@ Refactor what needs it. Tests stay green.
 
 **Result from the Matchinsights demo:**
 
-![Share buttons on device](docs/screenshots/guess-the-player-share-buttons.png)
+![Share buttons on device](./buttonexample.png)
 
 Three buttons, one row, correct visual hierarchy. Generated, tested, and reviewed in a single cycle.
 
@@ -174,5 +174,3 @@ This method was developed and validated while building the [Matchinsights](https
 The features used as examples throughout this document come from [MOBILE_SHARING_PLAN.md](MOBILE_SHARING_PLAN.md).
 
 ---
-
-*Built and validated alongside the [Matchinsights](https://futballero.com) football platform, April 2026.*
