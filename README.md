@@ -115,8 +115,6 @@ Read the output. The AI doesn't know your architecture. You do.
 
 **Result from the Matchinsights demo:**
 
-![Share buttons on device](./buttonexample.png)
-
 Three buttons, one row, correct visual hierarchy. Generated, tested, and reviewed in a single cycle.
 
 ---
