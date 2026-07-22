@@ -178,6 +178,6 @@ A ready-to-use example is in [CLAUDE.md](CLAUDE.md). Replace the project section
 
 This method was developed and validated while building the [Matchinsights](https://futballero.com) football platform.
 
-The features used as examples throughout this document come from [MOBILE_SHARING_PLAN.md](MOBILE_SHARING_PLAN.md).
+
 
 ---
