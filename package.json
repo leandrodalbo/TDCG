@@ -1,0 +1,12 @@
+{
+  "name": "tdcg-blog",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Static site source for tdcg.blog",
+  "scripts": {
+    "build": "node site/build.js"
+  },
+  "dependencies": {
+    "marked": "^12.0.2"
+  }
+}

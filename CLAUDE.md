@@ -10,7 +10,8 @@ Every feature or behavior change follows this loop. Do not skip steps. Ask befor
 3. PROMPT   — generate the implementation using the approved tests as the spec
 4. GREEN    — tests pass; do not weaken assertions to force it
 5. REVIEW   — check naming, single responsibility, duplication, dead code
-6. COMMIT   — one small focused commit with a clear why
+6. REFACTOR — apply what review found; tests stay green throughout
+7. COMMIT   — one small focused commit with a clear why
 ```
 
 ### Rules

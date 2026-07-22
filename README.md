@@ -34,7 +34,8 @@ In TDCG, **the AI generates both**. The human specifies the behavior, reviews th
 3. PROMPT   — give the AI the approved tests, the context, and a pattern to follow
 4. GREEN    — AI generates the implementation; tests pass
 5. REVIEW   — human checks the output for quality, consistency, dead code
-6. COMMIT   — one small, focused, tested commit
+6. REFACTOR — apply what review found; tests stay green throughout
+7. COMMIT   — one small, focused, tested commit
 ```
 
 One behavior. One cycle. Repeat.
@@ -112,8 +113,6 @@ Read the output. The AI doesn't know your architecture. You do.
 - Any copy-paste instead of reuse?
 - Any imports or state that aren't used?
 
-Refactor what needs it. Tests stay green.
-
 **Result from the Matchinsights demo:**
 
 ![Share buttons on device](./buttonexample.png)
@@ -122,7 +121,15 @@ Three buttons, one row, correct visual hierarchy. Generated, tested, and reviewe
 
 ---
 
-### 6. Commit
+### 6. Refactor
+
+Apply what review found. Rename, simplify, remove duplication, delete dead code — whatever the review step surfaced.
+
+Tests stay green throughout. If a refactor breaks a test, the refactor is wrong, not the test.
+
+---
+
+### 7. Commit
 
 One commit per cycle. Only after tests pass.
 
